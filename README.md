@@ -1,5 +1,5 @@
 # Rainy Image Restoration
-This project is a Novel Deep Learning Architecture for the task of Image Deraining as a segment of image restoration. This project was for Capstone in Summer 2023
+This project is a Novel Deep Learning Architecture for the task of Image Deraining as a segment of image restoration. This project was for Capstone in Summer 2023.
 
 The architecture is inspired by a hybrid of these approaches:
 - Restormer: Efficient Transformer for High-Resolution Image Restoration  - https://arxiv.org/pdf/2111.09881.pdf
