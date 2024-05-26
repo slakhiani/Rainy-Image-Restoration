@@ -1,66 +1,17 @@
-We propose a Novel Deep Learning Architecture for the Image Deraining task, or in simple words, to remove rain from a single image.
+# Rainy Image Restoration
+This project is a Novel Deep Learning Architecture for the task of Image Deraining as a segment of image restoration. This project was for Capstone in Summer 2023
 
 The architecture is inspired by a hybrid of these approaches:
+- Restormer: Efficient Transformer for High-Resolution Image Restoration  - https://arxiv.org/pdf/2111.09881.pdf
+- Swin Transformer: Hierarchical Vision Transformer using Shifted Windows  - https://arxiv.org/pdf/2103.14030
 
-Restormer: Efficient Transformer for High-Resolution Image Restoration - https://arxiv.org/pdf/2111.09881.pdf
-Swin Transformer: Hierarchical Vision Transformer using Shifted Windows - https://arxiv.org/pdf/2103.14030
-
-# SwinStormer: High Resolution Image Deraining
-We propose a `Novel Deep Learning Architecture` for the Image Deraining task, or in simple words, to remove rain from a single image.
-
-Our architecture is inspired by the fusion of the following approaches:
-- `Restormer: Efficient Transformer for High-Resolution Image Restoration`  - https://arxiv.org/pdf/2111.09881.pdf
-- `Swin Transformer: Hierarchical Vision Transformer using Shifted Windows`  - https://arxiv.org/pdf/2103.14030
-
-<br>
-## Requirements
-
-```
-pip install -r requirements.txt
-```
 <br>
 
 ## Dataset
 
-[Rain100L](https://mega.nz/file/MpgnwYDS#jqyDEyL1U9srLBbEFCPnAOZb2HZTsSrwSvRGQ6m6Dzc) and [Rain100H](https://www.dropbox.com/s/kzbzer5wem37byg/rain100H.zip?dl=0) are used, download these datasets and make 
-ensure the directory structure looks like this:
-```                           
-|-- data     
-    |-- rain100L
-        |-- train
-            |-- rain
-                norain-1.png
-                ...
-            `-- norain
-                norain-1.png
-                ...
-        `-- test                                                        
-    |-- rain100H
-        same as rain100L
-```
+[Rain100L](https://mega.nz/file/MpgnwYDS#jqyDEyL1U9srLBbEFCPnAOZb2HZTsSrwSvRGQ6m6Dzc) and [Rain100H](https://www.dropbox.com/s/kzbzer5wem37byg/rain100H.zip?dl=0) are used, 
+
 <br>
-
-
-## Usage
-
-You can easily train and test the model by running the command below. If you want to try other options, please refer to
-[utils.py](utils.py).
-
-### Train Model
-The models were trained on one NVIDIA Tesla V100 GPU (8GB).
-
-```
-python main.py --data_name rain100L --seed 0
-```
-
-### Test Model
-Download the model from the link given at the bottom of the ReadMe or train the model before running this command:
-```
-python main.py --data_name rain100H --model_file result/rain100H.pth
-```
-<br>
-
-
 
 ## Benchmarks
 
@@ -95,6 +46,3 @@ python main.py --data_name rain100H --model_file result/rain100H.pth
 </table>
 
 <br>
-
-## License
-This project is licensed under the terms of the GNU General Public License v3.0. You can find a copy of the license in the [LICENSE](LICENSE) file.
