@@ -13,6 +13,13 @@ The architecture is inspired by a hybrid of these approaches:
 
 <br>
 
+
+## Model Evaluation
+
+Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two evaluation metrics selected for this project. PSNR measures the peak error between the original and derained images in terms of signal-to-noise ratio. PSNR was used over Mean Squared Error (MSE) because it normalizes for images encoded using different numbers of bits, it is more concise due to the log function, and because it is widely used in the industry. SSIM evaluates the structural similarity between the original and derained images in terms of luminance, contrast, and structure. A low PSNR and high SSIM indicate high model performance.
+
+<br>
+
 ## Benchmarks
 
 <table>
@@ -46,3 +53,11 @@ The architecture is inspired by a hybrid of these approaches:
 </table>
 
 <br>
+
+## Results
+
+CNN U-Net:
+The image shows the rainy input image (left), the model output (middle), and the ground truth image (right). The image restoration was quite successful, with a PSNR of 31.13.
+
+<img width="593" alt="Screenshot 2024-05-26 at 6 00 52 PM" src="https://github.com/slakhiani/Rainy-Image-Restoration/assets/135447183/4ba0ab02-fa08-4287-8d74-6e927af75d8e">
+
