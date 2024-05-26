@@ -22,7 +22,7 @@ Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two 
 
 <br>
 
-## Benchmarks
+## Benchmarks and Results
 
 <table>
 <thead>
@@ -42,7 +42,7 @@ Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two 
 </thead>
 <tbody>
   <tr>
-    <td align="center"></td>
+    <td align="center">Swin U-Net (this project)</td>
     <td align="center">38.68</td>
     <td align="center">0.981</td>
     <td align="center">29.13</td>
@@ -52,9 +52,6 @@ Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two 
 </tbody>
 </table>
 
-<br>
-
-## Results
 
 CNN U-Net:
 The image shows the rainy input image (left), the model output (middle), and the ground truth image (right). The image restoration was quite successful, with a PSNR of 31.13.
