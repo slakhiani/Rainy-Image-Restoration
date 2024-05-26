@@ -30,7 +30,6 @@ Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two 
     <th rowspan="1">Model</th>
     <th colspan="2">Rain100L</th>
     <th colspan="2">Rain100H</th>
-    <th rowspan="1">Download</th>
   </tr>
   <tr>
   <td align="center">SwinStormer</td>
@@ -38,8 +37,7 @@ Peak-Signal-to-Noise Ratio (PSNR) and Structural Similarity (SSIM) were the two 
     <td align="center">PSNR</td>
     <td align="center">SSIM</td>
     <td align="center">PSNR</td>
-    <td align="center">SSIM</td>
-  <td align="center"><a href="https://mega.nz/folder/Ph0DyJJL#XTYf0aa0_sQ61-Y4LiiFmQ">Link</a></td>    
+    <td align="center">SSIM</td>  
   </tr>
 </thead>
 <tbody>
