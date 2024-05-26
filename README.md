@@ -9,7 +9,9 @@ The architecture is inspired by a hybrid of these approaches:
 
 ## Dataset
 
-[Rain100L](https://mega.nz/file/MpgnwYDS#jqyDEyL1U9srLBbEFCPnAOZb2HZTsSrwSvRGQ6m6Dzc) and [Rain100H](https://www.dropbox.com/s/kzbzer5wem37byg/rain100H.zip?dl=0) are used, 
+[Rain100L](https://mega.nz/file/MpgnwYDS#jqyDEyL1U9srLBbEFCPnAOZb2HZTsSrwSvRGQ6m6Dzc) and [Rain100H](https://www.dropbox.com/s/kzbzer5wem37byg/rain100H.zip?dl=0) are used.
+Rain 100H consists of 1800 high quality images with a resolution of 1200 x 900.
+Rain 100L consists of 200 low quality images with a resolution of 200 x 200. 
 
 <br>
 
